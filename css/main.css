@@ -1,0 +1,44 @@
+.logo {
+    width: 142px;
+    height: 31px;
+}
+
+.menu{
+    font-family: 'Helvetica', 'book', 'sans-serif';
+    text-decoration: none
+
+}
+
+h1{
+    font-family: 'LeituraNewsW01-Roman4', 'serif'; color: #ff790f;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: .031rem;
+}
+
+a.menu
+{
+    text-decoration:none;
+} 
+.bouton{
+    border: none;
+    background-color: #ff790f;
+    color: #fff;
+    display: inline-flex;
+    box-sizing: border-box;
+    height: 3rem;
+    min-width: 7.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    border: .063rem solid #becedd;
+    border-radius: .25rem;
+    font-family: 'Helvetica', 'book', 'sans-serif'; 
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: .025rem;
+    transition: box-shadow 100ms,background-color 100ms;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
