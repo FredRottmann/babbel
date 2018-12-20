@@ -1,14 +1,16 @@
+/*logo*/
 .logo {
     width: 142px;
     height: 31px;
 }
 
+/*menu*/
 .menu{
     font-family: 'Helvetica', 'book', 'sans-serif';
     text-decoration: none
-
 }
 
+/*punchlines*/
 h1{
     font-family: 'LeituraNewsW01-Roman4', 'serif'; color: #ff790f;
     font-size: 2rem;
@@ -32,7 +34,7 @@ a.menu
     align-items: center;
     padding: 0 1rem;
     border: .063rem solid #becedd;
-    border-radius: .25rem;
+    border-radius: ;
     font-family: 'Helvetica', 'book', 'sans-serif'; 
     font-size: 1rem;
     line-height: 1;
@@ -41,4 +43,16 @@ a.menu
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
+}
+.bouton-aligne{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: #ff790f
+	width:45%;
+    text-align:center;
+   
+}
+
+.btn{
+    background-color: #ff790f;
+    height: 2em;
 }
