@@ -20,7 +20,7 @@ a.menu
 {
     text-decoration:none;
 } 
-.bouton{
+div.bouton{
     border: none;
     background-color: #ff790f;
     color: #fff;
