@@ -7,52 +7,35 @@
 /*menu*/
 .menu{
     font-family: 'Helvetica', 'book', 'sans-serif';
-    text-decoration: none
+    text-decoration: none;
+    margin: auto 20px auto auto;
 }
 
 /*punchlines*/
-h1{
+h1 {
     font-family: 'LeituraNewsW01-Roman4', 'serif'; color: #ff790f;
     font-size: 2rem;
     line-height: 1.25;
     letter-spacing: .031rem;
 }
 
+nav {
+    font-family: 'Helvetica', 'book', 'sans-serif';
+    text-decoration: none;
+    margin: auto 20px auto auto;
+    width: 78%;
+}
 a.menu
 {
     text-decoration:none;
+    font-family: 'LeituraNewsW01-Roman4', 'serif'; color: #ff790f;
+    width: 78%;
+    display: inline-block;
+    margin: auto 20px auto auto;
 } 
-.bouton{
-    border: none;
-    background-color: #ff790f;
-    color: #fff;
-    display: inline-flex;
-    box-sizing: border-box;
-    height: 3rem;
-    min-width: 7.5rem;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    border: .063rem solid #becedd;
-    border-radius: ;
-    font-family: 'Helvetica', 'book', 'sans-serif'; 
-    font-size: 1rem;
-    line-height: 1;
-    letter-spacing: .025rem;
-    transition: box-shadow 100ms,background-color 100ms;
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-}
+
 .bouton-aligne{
     font-family:  Arial, Helvetica, sans-serif;
     background-color: #ff790f
-	width:45%;
-    text-align:center;
-   
-}
-
-.btn{
-    background-color: #ff790f;
-    height: 2em;
+ 
 }
