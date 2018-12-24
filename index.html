@@ -8,44 +8,41 @@
         <meta name="Robots" content="index">
         <link rel="stylesheet" href="css/main.css">
         <title>Cours en ligne avec Babbel</title>
-        <style type="text/css">a:link{text-decoration:none}</style> 
+        <!--supression surlignage
+        <style type="text/css">a:link{text-decoration:none}</style>-->
     </head>
     <body>
         <header>
-                <a href= "index.html">
-                        <img src="img/logo-babel1.jpg" alt= " logo babbel" class="logo">
-                </a>
-                <nav class="menu">
-                    <a href="#">Découvrir</a>
-                    <a href="#">Télécharger</a>
-                     <a href="#">Contactez-nous</a>
+                <!--menu-->
+                <nav>
+                    <a href= "index.html"><img src="img/logo-babel1.jpg" alt="logo babbel" id="logo-babbel"></a>
+                    <a href="#" class="menu">Découvrir</a>
+                    <a href="#" class="menu">Télécharger</a>
+                    <a href="#" class="menu">Contactez-nous</a>
                 </nav>
-                <div class="bouton">
-                         <a href="#">Découvrir</a>
-                         <a href="#">Télécharger</a> 
-                         <a href="#">Contactez-nous</a>
-                </div>
-                <div class="bouton">
-                    <a href="#">Découvrir</a>
-                    <a href="#">Télécharger</a> 
-                    <a href="#">Contactez-nous</a>
-           </div>
         </header>
         <main>
-            <div>
-                 <h1>Parlez une langue comme vous l'avez toujours rêvé!</h1>
-                <img src="https://fr.babbel.com/static/index_page/index_page_alien/alien-desktop-975116fb0f.png" alt="image-presentaion"class="alien">
-            </div>
-            <div>
-                <h1>Avec Babbel découvrez un nouveau monde!</h1>
-            </div>
-            <div>
-
-            </div>
-        </main>
-            
+            <!--section hero-->
+            <section>
+                <div id=hero>
+                <img src="img/hero-alien.png" alt="Hero Alien Babbel" id="alien">
+                </div>
+                <div id="call to action">
+                    <button>Télécharger</button>
+                    <button>Top</button>
+                </div>
+            </section>
+            <!--section services-->
+            <section>
+                <div class="services"></div>
+                <h1 id="pushline1">Parlez une langue comme vous l'avez toujours rêvé!</h1>
+            </section>
+            <!--section download-->
+            <section></section>
+            <!--section lead-->
+            <section></section>
+        </main>     
         <footer>
-
         </footer>
     </body>
 </html>
